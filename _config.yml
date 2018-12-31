@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Artiship
 subtitle:
 description:
-keywords:
-author: John Doe
-language:
+keywords: bigdata, java, scala, spark, kafka
+author: artiship
+language: en
 timezone:
 
 # URL
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:artiship/artiship.github.io.git
+  branch: master
